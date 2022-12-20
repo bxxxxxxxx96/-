@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms 2</title>
+    </head>
+    <body>
+        <h1>Forms 2</h1>
+        <p>
+            Текст сообщения<font size="4" color="red" face="Arial">*</font>
+            <p>
+                <textarea name="text" rows="4" cols="35"></textarea>
+            </p> 
+        </p>
+
+        <p>
+            Категория обращения<br>
+            <select>
+                <option value="t1">работа сайта</option>
+                <option value="t2">поиск работы</option>
+                <option value="t3">случайно</option>
+            </select>
+        </p>
+
+        <p>
+            Ожидаемая дата ответа<br>
+            (DD MM YYYY)<br>
+            <input name="datatime" type="date" />
+        </p>
+
+        <p>
+            Получить ответ по телефону<br>
+            <input name="tel" type="checkbox" />
+        </p>
+
+        <p>
+            Изображение(ваше фото, замечание)<br>
+            <input type="text" /><input type="file" />
+        </p>
+
+        <p>
+            Разделы сайта, которые вам понравились<br>
+            <br><select name="var" multiple="multiple" size="4">
+                <option value="1">Каталог</option>
+                <option value="2">Поддержка</option>
+                <option value="3">Партнеры</option>
+                <option value="4">Компания</option>
+              </select>
+        </p>
+
+        <p>
+            Вы относите себя к
+            <br><input type="radio" >Конкурент
+            <br><input type="radio" >Партнер
+            <br><input type="radio" >Клиент
+        </p>
+    </body>
+</html>

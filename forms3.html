@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Резюме</h1>
+        <p>
+            <p>Ваше имя: <input name="user"></p>
+        </p>
+         <p>
+            Дата рождения<br>
+            (DD MM YYYY)<br>
+            <input name="datatime" type="date" />
+        </p>
+         <p>
+            <p>Email: <input name="user"></p>
+        </p>
+        <p>
+            Изображение(ваше фото, замечание)<br>
+            <input type="text" /><input type="file" />
+        </p>
+
+
+        <p>
+            <p>Ваш пол:</p>
+            <input type="radio" name="answer" value="a1">Мужской<br>
+            <input type="radio" name="answer" value="a2">Женский
+        </p>
+
+        <p>
+            <p>Какое у вас образование</p>
+            <select>
+                <option value="t1">Общее образование</option>
+                <option value="t2">Среднее специальное образование</option>
+                <option value="t3">Высшее образование</option>
+                <option value="t4">Дополнительное образование</option>
+            </select>
+        </p>
+         <p>
+            <p>Специализация: <input name="user"></p>
+        </p>
+ <p>
+           Опыт работы (если есть)<font size="4" color="red" face="Arial">*</font>
+            <p>
+                <textarea name="text" rows="4" cols="35"></textarea>
+            </p> 
+        </p>
+        <p>
+            <p>Какие языки программирования Вы знаете?</p>
+            <input type="checkbox" name="a1" value="q1">Паскаль<br>
+            <input type="checkbox" name="a2" value="q2">C++<br>
+            <input type="checkbox" name="a3" value="q3">Java<br>
+            <input type="checkbox" name="a4" value="q4">JavaScript<br>
+            <input type="checkbox" name="a5" value="q5">C#<br>
+        </p>
+
+      
+        <p>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить форму">
+        </p>
+    </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms 3</title>
+    </head>
+    <body>
+     
+
+        <p>
+            Наличие военного билета<br>
+            <input name="tel" type="checkbox" />
+        </p>
+         <p>
+            Тип занятости
+            <br><input type="radio" >Полная занятость
+            <br><input type="radio" >Частичная занятость
+            <br><input type="radio" >Проектная работа/разовое задание
+            <br><input type="radio" >Волонтерство
+            <br><input type="radio" >Стажировка
+        </p>
+
+        <p>
+            Желаемый график работы<br>
+            <br><select name="var" multiple="multiple" size="4">
+                <option value="1">Полный день</option>
+                <option value="2">Сменный график</option>
+                <option value="3">Гибкий график</option>
+                <option value="4">Стажировка</option>
+                <option value="5">Вахтовый метод</option>
+              </select>
+        </p>
+
+        <p>
+           О себе
+            <p>
+                <textarea name="text" rows="4" cols="35"></textarea>
+            </p> 
+        </p>
+
+           <p>
+            <form>
+                <b>Почему мы должны трудоустроить именно вас?</b><br>
+                <textarea rows="5" cols="30" name="text" placeholder="Не более 200 символов"></textarea>
+            </form>
+        </p>
+
+    </body>
+</html>
